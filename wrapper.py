@@ -35,7 +35,7 @@ class ExchangeAPIWrapper:
             return None
 
     def get_account_balance(self):
-        # Get account balance from the exchange API
+        # Get account balance from the exchange API:
         endpoint = 'account/balance'
         response = self.send_request(endpoint)
         if response:
