@@ -17,7 +17,7 @@ __API Functions:__
  - The ```get_order_status``` function retrieves the status of an order.
 
 
-__Usage:__
+__Code Usage:__
 
  - Make sure you have the required libraries (requests, hashlib, hmac) installed before running the code. You can install them using the following command:
 ```
