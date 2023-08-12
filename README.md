@@ -21,7 +21,7 @@ __Code Usage:__
 
  - Make sure you have the required libraries (requests, hashlib, hmac) installed before running the code. You can install them using the following command:
    
-```bash
+```
 pip install requests
 ```
  - To use this code, replace the ```api_key```, ```secret_key```, and ```base_url``` variables with your actual API credentials and the base URL of the targeted cryptocurrency exchange's API.
