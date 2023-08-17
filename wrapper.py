@@ -10,7 +10,7 @@ class ExchangeAPIWrapper:
         self.secret_key = secret_key
 
     def generate_signature(self, payload):
-        # Generate the request signature using HMAC-SHA256:
+        # Generate the request signature using HMAC-SHA256
         payload_string = "&".join([f"{key}={value}" for key, value in payload.items()])
         signature = hmac.new(self.secret_key.encode('utf-8'), payload_string.encode('utf-8'), hashlib.sha256).hexdigest()
         return signature
