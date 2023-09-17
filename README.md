@@ -1,7 +1,7 @@
 # Exchange API Wrapper
 
 This python project is to develop a wrapper for a cryptocurrency exchange's API to facilitate trading and data retrieval.
-
+..
 __Request Signature:__
 
  - The ```generate_signature``` method generates the request signature using HMAC-SHA256 encryption to ensure the authenticity and integrity of the request.
